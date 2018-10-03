@@ -6,7 +6,7 @@ import humanfriendly, os, platform, random
 semver = PackageUtils.importFile('semver', os.path.join(PackageUtils.getPackageLocation('semver'), 'semver.py'))
 
 # The default Unreal Engine git repository
-DEFAULT_GIT_REPO = 'https://github.com/EpicGames/UnrealEngine.git'
+DEFAULT_GIT_REPO = 'https://github.com/Tibrim/UnrealEngine.git'
 
 # The base images for Linux containers
 LINUX_BASE_IMAGES = {
